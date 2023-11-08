@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+body {
+  background: url('https://mail.google.com/mail/u/0?ui=2&ik=445f9323ff&attid=0.1&permmsgid=msg-a:r4475897798433562143&th=18b18eb0e8715c30&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9Z12v5YjDtyCUZZQxLGVt9ZctBMEZwI8lrGgzpdRRxa8v5PmFCPtnYU_i7dG7gIVbybX_kzn0JejScYs5LsqtgLjjZR3ii8OELniw3lFHQdhZ5Ia9IcwQP6Fg&disp=emb&realattid=18b18eb02b5ef1957e01');
+  border: 3px solid chartreuse;
+  background-size:cover;
+  background-position: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.RnMContainer {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.img {
+  border: 3px solid chartreuse;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+h1{
+  text-align: center;
+  color: chartreuse;
+  font-family: 'Creepster';
+  font-size: 50px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+.RnMBtn {
+    display: flex;
+    align-items: center;
+    height: 60px;
 }
